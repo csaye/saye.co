@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faTwitter, faSoundcloud, faItchIo } from '@fortawesome/free-brands-svg-icons';
+
 import styles from '../styles/pages/Index.module.css';
 
 export default function Index() {
