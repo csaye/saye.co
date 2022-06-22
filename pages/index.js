@@ -2,16 +2,12 @@ import styles from '../styles/pages/Index.module.css';
 
 export default function Index() {
   function Link(props) {
-    const { label, url, link } = props;
+    const { to } = props;
 
     return (
-      <p>
-        {label}
-        {' • '}
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          {url}
-        </a>
-      </p>
+      <a href={to} target="_blank" rel="noopener noreferrer">
+        {props.children}
+      </a>
     );
   }
 
