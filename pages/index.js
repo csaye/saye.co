@@ -22,6 +22,13 @@ export default function Index() {
       </div>
       <div className={styles.center}>
         <h1>Cooper Saye</h1>
+        <p className={styles.link}>
+          <Link to="http://coopersaye.com/">coopersaye.com</Link>
+          {' • '}
+          <Link to="https://www.csaye.com/">csaye.com</Link>
+          {' • '}
+          <Link to="https://www.saye.co/">saye.co</Link>
+        </p>
       </div>
     </div>
   );
