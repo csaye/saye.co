@@ -17,6 +17,9 @@ export default function Index() {
 
   return (
     <div className={styles.container}>
+      <div className={styles.bgcontainer}>
+        <div className={styles.background} />
+      </div>
       <div className={styles.center}>
         <h1>Cooper Saye</h1>
       </div>
