@@ -59,6 +59,25 @@
   margin-bottom: 20px;
 }
 
+.centerSmall > .icons {
+  display: flex;
+  justify-content: center;
+}
+
+.centerSmall > .icons:last-of-type {
+  margin-top: 8px;
+}
+
+.centerSmall > .icons > a {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.centerSmall > .icons > a:nth-of-type(3) {
+  width: 64px;
+}
+
 .centerSmall > p:first-of-type {
   margin-top: 16px;
 }
