@@ -16,6 +16,17 @@
 .background {
   position: absolute;
   inset: -80px;
+  background: url('/img/logo.png') repeat;
+  animation: slide 2.4s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-80px);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
   text-align: center;
 }
