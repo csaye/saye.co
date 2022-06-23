@@ -3,8 +3,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
-.center {
+.bgcontainer {
+  z-index: -1;
+  position: fixed;
+  inset: -80px;
+  transform: rotateZ(-4deg);
+}
+
+.background {
+  position: absolute;
+  inset: -80px;
+}
   text-align: center;
 }
