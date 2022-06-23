@@ -50,6 +50,9 @@ export default function Index() {
           </Link>
         </div>
       </div>
+      <div className={styles.centerSmall}>
+        <h1>Cooper Saye</h1>
+      </div>
     </div>
   );
 }
