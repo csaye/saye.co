@@ -61,6 +61,28 @@ export default function Index() {
         <p className={styles.link}>
           <Link to="https://www.saye.co/">saye.co</Link>
         </p>
+        <div className={styles.icons}>
+          <Link to="mailto:cooper@saye.co">
+            <FontAwesomeIcon icon={faEnvelope} size="4x" />
+          </Link>
+          <Link to="https://github.com/csaye">
+            <FontAwesomeIcon icon={faGithub} size="4x" />
+          </Link>
+          <Link to="https://www.linkedin.com/in/coopersaye/">
+            <FontAwesomeIcon icon={faLinkedin} size="4x" />
+          </Link>
+        </div>
+        <div className={styles.icons}>
+          <Link to="https://soundcloud.com/csaye">
+            <FontAwesomeIcon icon={faSoundcloud} size="4x" />
+          </Link>
+          <Link to="https://twitter.com/csaye_">
+            <FontAwesomeIcon icon={faTwitter} size="4x" />
+          </Link>
+          <Link to="https://csaye.itch.io/">
+            <FontAwesomeIcon icon={faItchIo} size="4x" />
+          </Link>
+        </div>
       </div>
     </div>
   );
