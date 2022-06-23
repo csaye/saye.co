@@ -29,4 +29,20 @@
   }
 }
   text-align: center;
+
+.link > a {
+  color: #2196f3;
+}
+
+.link > a:hover {
+  color: #3f51b5;
+  text-decoration: underline;
+}
+
+.icons > a {
+  margin: 0 8px;
+}
+
+.icons > a:hover {
+  color: #2196f3;
 }
