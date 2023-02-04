@@ -17,19 +17,21 @@
   position: absolute;
   inset: -80px;
   background: url('/img/logo.png') repeat;
-  animation: slide 2.4s linear infinite;
+  animation: slide 6s linear infinite;
 }
 
 @keyframes slide {
   from {
     transform: translateX(-80px);
   }
+
   to {
     transform: translateX(0);
   }
 }
 
-.center, .centerSmall {
+.center,
+.centerSmall {
   background: #fff;
   text-align: center;
   padding: 32px;
@@ -51,58 +53,59 @@
   }
 }
 
-.center > h1, .centerSmall > h1 {
+.center>h1,
+.centerSmall>h1 {
   margin: 0;
 }
 
-.center > p {
+.center>p {
   margin-bottom: 20px;
 }
 
-.centerSmall > .icons {
+.centerSmall>.icons {
   display: flex;
   justify-content: center;
 }
 
-.centerSmall > .icons:last-of-type {
+.centerSmall>.icons:last-of-type {
   margin-top: 8px;
 }
 
-.centerSmall > .icons > a {
+.centerSmall>.icons>a {
   width: 70px;
   display: flex;
   justify-content: center;
 }
 
-.centerSmall > .icons > a:nth-of-type(3) {
+.centerSmall>.icons>a:nth-of-type(3) {
   width: 64px;
 }
 
-.centerSmall > p:first-of-type {
+.centerSmall>p:first-of-type {
   margin-top: 16px;
 }
 
-.centerSmall > p {
+.centerSmall>p {
   margin: 12px 0;
 }
 
-.centerSmall > p:last-of-type {
+.centerSmall>p:last-of-type {
   margin-bottom: 20px;
 }
 
-.link > a {
+.link>a {
   color: #2196f3;
 }
 
-.link > a:hover {
+.link>a:hover {
   color: #3f51b5;
   text-decoration: underline;
 }
 
-.icons > a {
+.icons>a {
   margin: 0 8px;
 }
 
-.icons > a:hover {
+.icons>a:hover {
   color: #2196f3;
 }
