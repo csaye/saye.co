@@ -1,7 +1,7 @@
-import Link from '../components/Link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faItchIo, faLinkedin, faSoundcloud, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin, faTwitter, faSoundcloud, faItchIo } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from '../components/Link';
 
 import styles from '../styles/pages/Index.module.css';
 
@@ -33,7 +33,7 @@ export default function Index() {
           <Link to="https://soundcloud.com/csaye">
             <FontAwesomeIcon icon={faSoundcloud} size="4x" />
           </Link>
-          <Link to="https://twitter.com/csaye_">
+          <Link to="https://twitter.com/CooperComputer">
             <FontAwesomeIcon icon={faTwitter} size="4x" />
           </Link>
           <Link to="https://csaye.itch.io/">
@@ -67,7 +67,7 @@ export default function Index() {
           <Link to="https://soundcloud.com/csaye">
             <FontAwesomeIcon icon={faSoundcloud} size="4x" />
           </Link>
-          <Link to="https://twitter.com/csaye_">
+          <Link to="https://twitter.com/CooperComputer">
             <FontAwesomeIcon icon={faTwitter} size="4x" />
           </Link>
           <Link to="https://csaye.itch.io/">
