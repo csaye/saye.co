@@ -33,7 +33,7 @@ export default function Index() {
           <Link to="https://soundcloud.com/csaye">
             <FontAwesomeIcon icon={faSoundcloud} size="4x" />
           </Link>
-          <Link to="https://twitter.com/CooperComputer">
+          <Link to="https://twitter.com/cooperjsaye">
             <FontAwesomeIcon icon={faTwitter} size="4x" />
           </Link>
           <Link to="https://csaye.itch.io/">
